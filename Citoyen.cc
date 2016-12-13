@@ -1,26 +1,17 @@
-#include "Citoyen.h"
+#include "Citoyen.hh"
 
 // Constructors/Destructors
 //  
 
-Citoyen::Citoyen () {
-initAttributes();
-}
+
+
+Citoyen::Citoyen () :
+{
+	_vote(NULL);
+	}
 
 Citoyen::~Citoyen () { }
 
-//  
-// Methods
-//  
 
 
-// Accessor methods
-//  
-
-
-// Other methods
-//  
-
-void Citoyen::initAttributes () {
-}
 

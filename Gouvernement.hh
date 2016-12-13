@@ -32,6 +32,8 @@ private:
 	// Private attributes
 	//  
 
+
+	// penser à transformer ces champs en map
 	int _economie;
 	int _education;
 	int _sante;
